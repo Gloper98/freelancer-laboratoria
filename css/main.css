@@ -1,0 +1,378 @@
+/*body styles*/
+ body {
+   font-family: lato,sans-serif;
+   margin: 0;
+ }
+
+ /*Nav styles*/
+ nav {
+  /* outline: 1px solid red;*/
+   height: 108px;
+   width: 100%;
+   position: fixed;
+   background-color: #2c3e50;
+   z-index: 100;
+ }
+
+ /*Header styles*/
+ header {
+   /*outline: 1px solid blue;*/
+   height: 108px;
+   width: 100%;
+   position: fixed;
+   margin-top: 0;
+ }
+ /* Web Page title styles*/
+ .bootstrap{
+   /*outline: 1px solid black;*/
+   margin-top: 2.2%;
+   margin-left: 13%;
+   display: inline-block;
+   font-size: 30px;
+   font-weight: 800;
+   text-transform: uppercase;
+ }
+ /*web page menu styles*/
+ .nav-list{
+   /*outline: 1px solid yellow;*/
+   list-style: none;
+   display: inline-block;
+   float: right;
+   margin-right: 15%;
+   margin-top: 2.8%;
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 15px;
+ }
+ /*Web page menu styles*/
+ .options{
+   /*outline: 1px solid green;*/
+   display: inline-block;
+   margin-left: 15px;
+ }
+ /*Main title font color*/
+.main-title{
+  color: #fff;
+}
+/*Main menu font color*/
+.main-menu{
+  color: #fff;
+}
+/*link style*/
+ a{
+   text-decoration: none;
+ }
+/*Page title style*/
+ .page-name{
+   text-transform: uppercase;
+   font-size: 80px;
+   font-weight: 600;
+   color: #fff;
+ }
+
+ /*First section style*/
+.main-section{
+  background: #18bc9c;
+  text-align: center;
+  height: 600px;
+  width: 100%;
+  padding-top: 160px;
+}
+/*First content description style*/
+.my-skills{
+  font-size: 27px;
+  color: #fff;
+}
+/*Decoration line style*/
+.star {
+  width: 250px;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+.star::after, .star::before  {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background: #fff;
+  margin-bottom: 8px;
+}
+.star::before{
+  margin-right: 5px;
+}
+/*Second section title style*/
+h2{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.portfolio-central-title{
+    color: #2c3e50;
+}
+/*Second style of decoration line*/
+.star-second {
+  width: 250px;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  color: #2c3e50;
+}
+.star-second::after, .star-second::before  {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background: #2c3e50;
+  margin-bottom: 8px;
+}
+.star-second::before{
+  margin-right: 5px;
+}
+/*div{
+  outline: 1px solid blue;
+}*/
+
+/*Second section style*/
+.portfolio{
+  text-align: center;
+  padding: 5%;
+  /*outline: 1px solid red;*/
+}
+/*Second section positioning*/
+.portfolio-galery{
+  position: relative;
+}
+/*Portfolio photo style*/
+.portfolio-photo{
+  display: inline-block;
+  width: 25%;
+  margin: 2%;
+}
+/*Portfolio central title style*/
+.portfolio-central-title {
+  font-size: 48px;
+}
+/*Photo style*/
+.proyect-photo{
+  display: inline-block;
+  width: 100%;
+}
+/*Third section style*/
+.about{
+  background: #18bc9c;
+  text-align: center;
+  padding: 4% 1% 8% 1%;
+
+}
+/*Third section title style*/
+.about-title{
+  color: #fff;
+  margin-top: 80px;
+}
+
+.about-central-title{
+  font-size: 48px;
+}
+/*Third section information style*/
+.information{
+  padding: 1% 18%;
+  margin-bottom: 2%;
+}
+/*Content styles*/
+.text-one{
+  display: inline-block;
+  width: 330px;
+  text-align:left;
+  font-size: 19px;
+  color: #fff;
+  margin:0 3%;
+  line-height: 150%;
+}
+.text-two{
+  display: inline-block;
+  width: 330px;
+  text-align:left;
+  font-size: 19px;
+  color: #fff;
+  margin:0 20px;
+  line-height: 150%;
+}
+/*Download button style*/
+.download{
+  margin: 0 42%;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 3px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+.download-link{
+  display: inline-block;
+  margin: 5%;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 0;
+}
+.icon-download{
+  color: #fff;
+  padding: 0;
+  margin-left: 1%;
+}
+.link-one{
+  padding: 0;
+}
+
+/*FORMULARY SECTION*/
+
+/*Title style*/
+.contact-me{
+  color: #2c3e50;
+  font-size: 50px;
+  text-transform:uppercase;
+  font-weight: 600px;
+}
+.contact-me-section {
+  text-align: center;
+}
+.contactme-title {
+  margin-bottom: 40px;
+}
+/*Formulary style*/
+.formulary{
+  display: block;
+}
+
+.document-formulary{
+  list-style: none;
+  margin-left: none;
+}
+.formulary-set{
+  padding: 0 27%;
+  text-align: left;
+}
+.description{
+  font-size: 13px;
+  font-family: "Lato",sans-serif;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: #18bc9c;
+}
+input{
+  color: #595959;
+  width: 100%;
+  height: 40px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+}
+input:active{
+  outline: inherit;
+}
+.contactme-line{
+  height: 4px;
+  width: 300px;
+  background: #2c3e50;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.formulary-line{
+  margin: 25px 0;
+}
+#message{
+  height: 180px;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-family: sans-serif;
+  color: #595959;
+  font-size: 25px;
+}
+/*Send button style*/
+button{
+  margin-left: 40px;
+  background: #18bc9c;
+  border: none;
+  outline: none;
+  padding: 15px 15px 15px 15px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 100px;
+  font-weight: 600;
+}
+button:hover{
+  background-color: #28a745;
+}
+
+/*FOOTER STYLE*/
+
+footer{
+  text-align: center;
+  background-color: #2c3e50;
+  color: #fff;
+  height: 320px;
+}
+.footer-section{
+  width: 400px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/*Footer content style*/
+footer{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+}
+.title-footer{
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.text-footer{
+  font-size: 20px;
+}
+.footer-link{
+  color: #18bc9c;
+}
+.copyright{
+  margin-bottom: 0;
+}
+.copyright-footer{
+  /*outline: 1px solid red;*/
+  margin-top: 70px;
+}
+/*Icon style*/
+div .icon{
+  font-size: 25px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #fff;
+  text-align: center;
+  padding: 6px;
+  display: inline-block;
+  margin: 5px 5px 20px 5px;
+  cursor: pointer;
+}
+
+/*Some hover effects*/
+.main-menu:hover{
+  color: #18bc9c;
+}
+.download:hover{
+  background-color: #fff;
+  color: #18bc9c;
+}
+.icon:hover{
+  background-color: #fff;
+  color: #2c3e50;
+}
+.proyect-photo:hover{
+  cursor: pointer;
+}
